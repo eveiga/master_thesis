@@ -1,0 +1,17 @@
+%some macro definitions
+
+% format
+\newcommand{\class}[1]{{\normalfont\slshape #1\/}}
+
+% entities
+\newcommand{\Feup}{Faculdade de Engenharia da Universidade do Porto}
+
+\newcommand{\svg}{\class{SVG}}
+\newcommand{\scada}{\class{SCADA}}
+\newcommand{\scadadms}{\class{SCADA/DMS}}
+
+%% some more macros
+\newcommand{\todoline}[1]{\todo[inline,color=red!40,size=\small]{#1}}
+\newcommand{\todolines}[2]{\begin{singlespace}\todo[caption={{#1}},inline,color=red!50,size=\small]{#2}\end{singlespace}}
+\newcommand{\todoref}[1]{\todo[color=red!30,size=\small]{#1}}
+\newcommand{\todofigure}[1]{\begin{figure}\begin{center}\missingfigure{#1}\caption{Figura que Falta}\label{fig:miss}\end{center}\end{figure}}

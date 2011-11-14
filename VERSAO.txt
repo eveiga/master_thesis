@@ -1,0 +1,16 @@
+Distribution: FEUP-TESES
+Current version: v2011
+feupteses.sty: 1.0
+
+Changes for v2011:
+1. new option scheme
+2. support for line numbers in jury version
+3. changes to status indication (jury, final)
+4. removed support for versioning
+
+Changes for v2009f:
+1. option onpaper: hide hyperlinks
+
+Changes for v2009e:
+1. plainnat-pt.bst: finished conversion to Portuguese.
+2. unsrt-pt.bst: added to the distribution

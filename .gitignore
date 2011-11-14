@@ -9,3 +9,5 @@
 *.aux
 *.blg
 *.idx
+*.pdf
+*.un~
