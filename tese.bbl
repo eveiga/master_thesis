@@ -1,4 +1,9 @@
-\begin{thebibliography}{Lip08}
+\begin{thebibliography}{Inm92}
+
+\bibitem[Inm92]{Inmon92}
+W.H. Inmon.
+\newblock {\em Building the Data Warehouse}.
+\newblock QED Press/John Wiley, {F}ourth edition, 1992.
 
 \bibitem[Lip08]{kn:Lip08}
 Lipsum.
