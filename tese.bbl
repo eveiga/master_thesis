@@ -1,14 +1,18 @@
-\begin{thebibliography}{Inm92}
+\begin{thebibliography}{Kim02}
 
 \bibitem[Inm92]{Inmon92}
 W.H. Inmon.
 \newblock {\em Building the Data Warehouse}.
-\newblock QED Press/John Wiley, {F}ourth edition, 1992.
+\newblock QED Press/John Wiley, {T}hird edition, 1992.
 
-\bibitem[Lip08]{kn:Lip08}
-Lipsum.
-\newblock Lorem ipsum.
-\newblock Disponível em \url{http://www.lipsum.com/}, acedido a última vez em
-  19 de Maio de 2008, 2008.
+\bibitem[Kim96]{Kimball96}
+R.~Kimball.
+\newblock {\em The Data Warehouse Toolkit}.
+\newblock John Wiley \& Sons, {F}irst edition, 1996.
+
+\bibitem[Kim02]{Kimball02}
+R.~Kimball.
+\newblock {\em The Data Warehouse Toolkit}.
+\newblock John Wiley \& Sons, {S}econd edition, 2002.
 
 \end{thebibliography}

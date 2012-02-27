@@ -12,21 +12,55 @@ Apesar de actualmente a definição precisa do termo armazenamento de dados aind
 ser tema de debate, a grande maioria dos investigadores e fornecedores de soluções
 parece concordar que o mesmo poderá ser definido como um conjunto de conceitos,
 metodologias, tecnologias e ferramentas utilizados com o propósito de disponibilizar
-dados para aplicações orientadas ao suporte à decisão. Nos ínicios da década de
-90, Bill Inmon \citet{Inmon92} define o termo armazém de dados como sendo uma
-colecção de dados orientada a um determinado assunto, integrada, variável com o
-tempo e não volátil, usada como suporte no processo da tomada de decisão. Esta,
-aos dias de hoje, parece ainda ser a definição que mais consenso reune.
+dados para aplicações orientadas ao suporte à decisão.
+
+
+Nos ínicios da década de 90, Bill Inmon \citet{Inmon92} define o termo armazém
+de dados como sendo uma colecção de dados orientada a um determinado assunto,
+integrada, variável com o tempo e não volátil, usada como suporte no processo
+da tomada de decisão. Esta, aos dias de hoje, parece ainda ser a definição que
+mais consenso reune.
 
 Tal como caracterizado em \citet{Inmon92}, um armazém de dados é:
 \begin{itemize}
     \item Orientado ao assunto, isto é, ao contrário das bases de dados
     operacionais clássicas que se encontram organizadas em torno das operações
     diárias de uma companhia, a estrutura de um armazém de dados é baseada nos
-    temas chave da organização em causa tais como vendas, clientes, pacientes,
+    temas chave da organização em causa, e.g., vendas, clientes, pacientes,
     estudantes, permitindo assim um foco mais concreto sobre o dominio através
     da exclusão de informação que não seja relevante para o processo de tomada
     de decisão.
-    \item Integrado
+
+    \item Integrado, visto que, se propõem a reunir informação proveniente de
+    diferentes sistemas externos e operacionais (fontes de dados). A integração
+    em si é um processo complexo que normalmente implica um mapeamento de dados
+    dissimilares com vista a obter uma base única e comum como fonte de verdade.
+    Como exemplo, o sexo de um determinado indivíduo, poderá ser representado por
+    'M' e 'F' ou '0' e '1' ou 'masc' e 'fem' quando na presença de fontes de
+    informação heterogéneas. Por definição, os dados num armazém de dados
+    deverão ser sempre mantidos de uma forma consistente e coerente.
+
+    \item Variável com o tempo, que indica a possibilidade de representar
+    diferentes valores do mesmo objecto, de acordo com as alterações que vai
+    sofrendo ao longo do tempo, e.g., a média mensal de vendas de um determinado
+    produto durante o período de dois anos. Ao invés da maioria das bases de dados
+    de sistemas operacionais, dados históricos são de extrema relevância no
+    contexto dos armazéns de dados.
+
+    \item Não volátil, o último conceito essencial para se definir um armazém
+    de dados, representa a não possibilidade de alteração ou remoção da
+    informação uma vez inserida no mesmo, ou seja, o armazém de dados deverá,
+    numa base periódica, ser actualizado com nova informação. Este aspecto é
+    essencial no que diz respeito à capacidade de representação de informação
+    num qualquer instante de tempo.
 \end{itemize}
 
+Por outro lado, de acordo com Ralph Kimball \citet{Kimball02}, um armazém de dados
+poderá ser descrito como um aglomerado de todos os \textit{data marts} existentes
+no contexto de uma empresa, que por sua vez, têm o seu foco direccionado para
+os objectivos respeitantes ao negócio de cada departamento dentro da organização
+em causa. Em \citet{Kimball96} o autor descreve um \textit{data mart} como sendo
+um subconjunto do armazém de dados. O armazém de dados corresponde ao somatório
+de todos os \textit{data marts}, sendo que cada um representa um negócio especifico
+através de um modelo em estrela ou uma familia dos mesmos mas com diferentes
+granularidades.
